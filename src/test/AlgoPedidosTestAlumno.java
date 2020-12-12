@@ -1,12 +1,15 @@
-import modelo.*;
+import modelo.AlgoPedidos;
+import modelo.CuponFijoNegativoException;
+import modelo.ElClienteYaElClienteYaTieneUnPedidoException;
+import modelo.ElClienteNoExisteException;
+import modelo.ProductoNoExisteException;
+import modelo.CuponPorcentualMayorA100Exception;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/*
-assertThrows(ElClienteNoExisteException.class, () -> algoPedidos.precioPedido("Nisman"));
- */
+
 class AlgoPedidosTestAlumno {
     private final AlgoPedidos algoPedidos = new AlgoPedidos();
 
