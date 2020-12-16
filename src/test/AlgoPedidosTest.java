@@ -10,7 +10,6 @@ class AlgoPedidosTest {
     @Test
     public void test01SeAgreganProductosAPedidoParaRetirar() {
         algoPedidos.crearPedidoConRetiro("Eugenio");
-
         algoPedidos.agregarProducto("Milanesa", 250.0, 2, "Eugenio");
         algoPedidos.agregarProducto("Gelatina", 100.0, 1, "Eugenio");
 

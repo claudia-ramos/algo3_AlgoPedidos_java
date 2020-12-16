@@ -35,5 +35,10 @@ class CuponTest {
 
         assertEquals( cupon.aplicarDescuento(precio_final), precio_final );
     }
+    @Test
+    public void test04SeObtieneValorDescuentoDeUnSinCupon() {
+        Cupon cupon = new CuponSinDescuento();
 
+        assertEquals(0, cupon.obtenerDescuento() );
+    }
 }

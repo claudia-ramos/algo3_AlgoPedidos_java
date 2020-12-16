@@ -3,7 +3,7 @@ package modelo;
 import java.util.ArrayList;
 
 abstract class Pedido {
-    public ArrayList<Producto> lista_pedidos = new ArrayList<Producto>();
+    public ArrayList<Producto> lista_pedidos = new ArrayList<>();
 
     public abstract void establecerCuponPorcentaje(int valor);
     public abstract void establecerCuponDescuento(int valor);
